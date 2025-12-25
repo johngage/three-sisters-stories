@@ -1,0 +1,37 @@
+{
+  "videos": [
+    {
+      "youtubeId": "REPLACE_WITH_VIDEO_ID",
+      "title": "Natalie's Story Time",
+      "date": "December 2024"
+    }
+  ],
+  "books": [
+    {
+      "title": "The Very Hungry Caterpillar",
+      "author": "Eric Carle",
+      "thoughts": "I love the butterflies!"
+    },
+    {
+      "title": "If You Give a Mouse a Cookie",
+      "author": "Laura Numeroff",
+      "thoughts": "The mouse is so silly!"
+    }
+  ],
+  "journal": [
+    {
+      "date": "December 25, 2024",
+      "content": "Today was so fun! We opened presents and I got a new teddy bear. I named her Rosie!"
+    }
+  ],
+  "drawings": [
+    {
+      "title": "Flower Garden",
+      "emoji": "🌻"
+    },
+    {
+      "title": "My Family",
+      "emoji": "👨‍👩‍👧‍👧"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Susie's Corner - Three Sisters Stories</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="main-nav">
+      <a href="index.html" class="site-title">
+        <span class="title-emoji">🏠</span>
+        Three Sisters Stories
+      </a>
+      <div class="sister-links">
+        <a href="susie.html" class="sister-link active" style="--sister-color: #FF6B9D;">🌸 Susie</a>
+        <a href="betsy.html" class="sister-link" style="--sister-color: #4ECDC4;">🦋 Betsy</a>
+        <a href="natalie.html" class="sister-link" style="--sister-color: #9B59B6;">🌟 Natalie</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="sister-page" style="--sister-color: #FF6B9D;">
+      <header class="sister-header">
+        <span class="sister-emoji">🌸</span>
+        <h1>Susie's Corner</h1>
+        <p class="sister-age">9 years old</p>
+      </header>
+
+      <nav class="section-nav">
+        <a href="#videos" class="nav-btn">🎬 Videos</a>
+        <a href="#books" class="nav-btn">📚 Books</a>
+        <a href="#journal" class="nav-btn">📝 Journal</a>
+        <a href="#drawings" class="nav-btn">🎨 Drawings</a>
+      </nav>
+
+      <section id="videos" class="content-section">
+        <h2>🎬 My Videos</h2>
+        <div id="videos-grid" class="video-grid">
+          <!-- Videos loaded from JSON -->
+        </div>
+      </section>
+
+      <section id="books" class="content-section">
+        <h2>📚 My Favorite Books</h2>
+        <div id="books-list" class="books-list">
+          <!-- Books loaded from JSON -->
+        </div>
+      </section>
+
+      <section id="journal" class="content-section">
+        <h2>📝 My Journal</h2>
+        <div id="journal-entries" class="journal-entries">
+          <!-- Journal entries loaded from JSON -->
+        </div>
+      </section>
+
+      <section id="drawings" class="content-section">
+        <h2>🎨 My Drawings</h2>
+        <div id="drawings-gallery" class="drawings-gallery">
+          <!-- Drawings loaded from JSON -->
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-hearts">Made with love for Susie, Betsy & Natalie</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script>loadSisterContent('susie');</script>
+</body>
+</html>

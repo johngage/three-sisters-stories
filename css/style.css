@@ -1,0 +1,462 @@
+/* Three Sisters Stories - Kid-Friendly Stylesheet */
+
+:root {
+  --susie-color: #FF6B9D;
+  --betsy-color: #4ECDC4;
+  --natalie-color: #9B59B6;
+  --background: #FFF9F0;
+  --text-color: #2D3436;
+  --card-bg: #FFFFFF;
+  --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  --border-radius: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Fredoka', sans-serif;
+  background: var(--background);
+  color: var(--text-color);
+  line-height: 1.6;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(255, 107, 157, 0.1) 0%, transparent 20%),
+    radial-gradient(circle at 90% 80%, rgba(78, 205, 196, 0.1) 0%, transparent 20%),
+    radial-gradient(circle at 50% 50%, rgba(155, 89, 182, 0.05) 0%, transparent 30%);
+}
+
+/* Header */
+.site-header {
+  background: linear-gradient(135deg, var(--susie-color), var(--betsy-color), var(--natalie-color));
+  padding: 1rem 2rem;
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.main-nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.title-emoji {
+  font-size: 1.8rem;
+}
+
+.sister-links {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.sister-link {
+  background: white;
+  color: var(--sister-color);
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sister-link:hover,
+.sister-link.active {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Homepage */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  background: linear-gradient(135deg, var(--susie-color), var(--betsy-color), var(--natalie-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  color: #666;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.sisters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.sister-card {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  text-align: center;
+  box-shadow: var(--shadow);
+  border-top: 5px solid var(--sister-color, #ccc);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.sister-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.sister-card .emoji {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.sister-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: var(--sister-color);
+}
+
+.sister-card .age {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.2rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.sister-card .visit-btn {
+  display: inline-block;
+  background: var(--sister-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.sister-card .visit-btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Sister Pages */
+.sister-page {
+  --section-color: var(--sister-color, #4ECDC4);
+}
+
+.sister-header {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, var(--sister-color), color-mix(in srgb, var(--sister-color), white 30%));
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.sister-emoji {
+  font-size: 5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.sister-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.sister-age {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+.section-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.nav-btn {
+  background: var(--card-bg);
+  color: var(--sister-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+  border: 2px solid var(--sister-color);
+  transition: all 0.2s;
+}
+
+.nav-btn:hover {
+  background: var(--sister-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Content Sections */
+.content-section {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.content-section h2 {
+  font-size: 1.8rem;
+  color: var(--sister-color);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px dashed var(--sister-color);
+}
+
+/* Videos */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.video-container {
+  background: #f8f8f8;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-title {
+  padding: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.video-date {
+  padding: 0 1rem 1rem;
+  font-size: 0.9rem;
+  color: #888;
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+}
+
+/* Books */
+.books-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.book-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f8f8;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.book-emoji {
+  font-size: 2.5rem;
+}
+
+.book-info h3 {
+  margin-bottom: 0.25rem;
+  color: var(--sister-color);
+}
+
+.book-info .author {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.book-info .thoughts {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Journal */
+.journal-entries {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.journal-entry {
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #fffef0, #fff9f0);
+  border-radius: 15px;
+  border-left: 4px solid var(--sister-color);
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.1rem;
+}
+
+.journal-entry .date {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 0.9rem;
+  color: var(--sister-color);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.journal-entry .content {
+  line-height: 1.8;
+}
+
+/* Drawings */
+.drawings-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.drawing-item {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.drawing-item:hover {
+  transform: scale(1.02);
+}
+
+.drawing-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.drawing-item .title {
+  padding: 0.75rem;
+  font-weight: 500;
+}
+
+.drawing-placeholder {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  color: #888;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.2rem;
+}
+
+.empty-state .icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+.site-footer {
+  background: linear-gradient(135deg, var(--susie-color), var(--betsy-color), var(--natalie-color));
+  padding: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.footer-hearts {
+  color: white;
+  font-size: 1.1rem;
+  font-family: 'Patrick Hand', cursive;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .site-title {
+    font-size: 1.2rem;
+  }
+
+  .sister-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  .content-section {
+    padding: 1.5rem;
+  }
+
+  .section-nav {
+    gap: 0.5rem;
+  }
+
+  .nav-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}

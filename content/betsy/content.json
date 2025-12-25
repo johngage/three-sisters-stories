@@ -1,0 +1,37 @@
+{
+  "videos": [
+    {
+      "youtubeId": "REPLACE_WITH_VIDEO_ID",
+      "title": "Betsy's Science Project",
+      "date": "December 2024"
+    }
+  ],
+  "books": [
+    {
+      "title": "Diary of a Wimpy Kid",
+      "author": "Jeff Kinney",
+      "thoughts": "So funny! I couldn't stop laughing."
+    },
+    {
+      "title": "Dork Diaries",
+      "author": "Rachel Renée Russell",
+      "thoughts": "Nikki is just like me!"
+    }
+  ],
+  "journal": [
+    {
+      "date": "December 25, 2024",
+      "content": "Christmas was awesome! I helped mom bake cookies and decorated them with sprinkles. My favorite was the star-shaped one!"
+    }
+  ],
+  "drawings": [
+    {
+      "title": "Magical Unicorn",
+      "emoji": "🦄"
+    },
+    {
+      "title": "My Cat Whiskers",
+      "emoji": "🐱"
+    }
+  ]
+}

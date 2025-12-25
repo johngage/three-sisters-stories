@@ -1,0 +1,37 @@
+{
+  "videos": [
+    {
+      "youtubeId": "REPLACE_WITH_VIDEO_ID",
+      "title": "Susie's Dance Recital",
+      "date": "December 2024"
+    }
+  ],
+  "books": [
+    {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "thoughts": "I wish I could go to Hogwarts!"
+    },
+    {
+      "title": "Percy Jackson & The Lightning Thief",
+      "author": "Rick Riordan",
+      "thoughts": "Greek mythology is so cool!"
+    }
+  ],
+  "journal": [
+    {
+      "date": "December 25, 2024",
+      "content": "Best Christmas ever! I got the book I wanted and already read the first 3 chapters. I can't wait to find out what happens next!"
+    }
+  ],
+  "drawings": [
+    {
+      "title": "My Rainbow",
+      "emoji": "🌈"
+    },
+    {
+      "title": "Dream Castle",
+      "emoji": "🏰"
+    }
+  ]
+}
