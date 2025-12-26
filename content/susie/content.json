@@ -10,10 +10,10 @@
     {
       "title": "Let It Glow",
       "author": "Marissa Meyer",
-      "thoughts": "I have read it 4 times in the last year and I LOVE it!!! It is one of the best books ever in my opinion. It is a holiday book about both Christmas 🎄 and Hanukkah 🕎. Happy Holidays!",    
+      "thoughts": "I have read it 4 times in the last year and I LOVE it!!! It is one of the best books ever in my opinion. It is a holiday book about both Christmas 🎄 and Hanukkah 🕎. Happy Holidays!"
     },
-    {  
-      "title": "Harry Potter and the Sorcerer's Stone is on my list",
+    {
+      "title": "Harry Potter and the Sorcerer's Stone",
       "author": "J.K. Rowling",
       "thoughts": "I wish I could go to Hogwarts!"
     },
@@ -29,14 +29,5 @@
       "content": "Best Christmas ever! I got the book I wanted and already read the first 3 chapters. I can't wait to find out what happens next!"
     }
   ],
-  "drawings": [
-    {
-      "title": "My Rainbow",
-      "emoji": "🌈"
-    },
-    {
-      "title": "Dream Castle",
-      "emoji": "🏰"
-    }
-  ]
+  "drawings": []
 }
