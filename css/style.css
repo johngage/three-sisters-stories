@@ -247,8 +247,19 @@ body {
   font-size: 1.8rem;
   color: var(--sister-color);
   margin-bottom: 1.5rem;
+}
+
+.subsection-title {
+  font-size: 1.3rem;
+  color: var(--sister-color);
+  margin: 1.5rem 0 1rem 0;
   padding-bottom: 0.5rem;
-  border-bottom: 3px dashed var(--sister-color);
+  border-bottom: 2px dotted var(--sister-color);
+  opacity: 0.9;
+}
+
+.subsection-title:first-of-type {
+  margin-top: 0;
 }
 
 /* Videos */

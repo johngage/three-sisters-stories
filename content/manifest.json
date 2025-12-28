@@ -1,0 +1,113 @@
+{
+  "susie": {
+    "videos": [
+      {
+        "id": "Numi1sVSFWk",
+        "title": "Susie's Story",
+        "date": "December 2024"
+      }
+    ],
+    "booksRead": [
+      {
+        "title": "Let It Glow",
+        "author": "Marissa Meyer",
+        "thoughts": "I have read it 4 times in the last year and I LOVE it!!! It is one of the best books ever in my opinion. It is a holiday book about both Christmas \ud83c\udf84 and Hanukkah \ud83d\udd4e. Happy Holidays!"
+      }
+    ],
+    "booksWantToRead": [
+      {
+        "title": "How to Bake Pi:An Edible Exploration of the Mathematics of Mathematics",
+        "author": "Eugenia Cheng",
+        "notes": "more about math and cooking"
+      },
+      {
+        "title": "Is Maths Real? How Simple Questions Lead Us to Mathematics\u2019 Deepest Truths",
+        "author": "Eugenia Cheng",
+        "notes": "Chapter book on exploring- all answers are right in some way"
+      }
+    ],
+    "journal": [
+      {
+        "date": "December 25, 2024",
+        "title": "Christmas Day",
+        "content": "Best Christmas ever! I got the book I wanted and already read the first 3 chapters. I can't wait to find out what happens next!"
+      }
+    ],
+    "drawings": [
+      {
+        "title": "My Rainbow",
+        "emoji": "\ud83c\udf08"
+      },
+      {
+        "title": "Dream Castle",
+        "emoji": "\ud83c\udff0"
+      }
+    ]
+  },
+  "betsy": {
+    "videos": [],
+    "booksRead": [
+      {
+        "title": "Diary of a Wimpy Kid",
+        "author": "Jeff Kinney",
+        "thoughts": "So funny! I couldn't stop laughing."
+      },
+      {
+        "title": "Dork Diaries",
+        "author": "Rachel Ren\u00e9e Russell",
+        "thoughts": "Nikki is just like me!"
+      }
+    ],
+    "booksWantToRead": [],
+    "journal": [
+      {
+        "date": "December 25, 2024",
+        "title": "Christmas Day",
+        "content": "Christmas was awesome! I helped mom bake cookies and decorated them with sprinkles. My favorite was the star-shaped one!"
+      }
+    ],
+    "drawings": [
+      {
+        "title": "Magical Unicorn",
+        "emoji": "\ud83e\udd84"
+      },
+      {
+        "title": "My Cat Whiskers",
+        "emoji": "\ud83d\udc31"
+      }
+    ]
+  },
+  "natalie": {
+    "videos": [],
+    "booksRead": [
+      {
+        "title": "The Very Hungry Caterpillar",
+        "author": "Eric Carle",
+        "thoughts": "I love the butterflies!"
+      },
+      {
+        "title": "If You Give a Mouse a Cookie",
+        "author": "Laura Numeroff",
+        "thoughts": "The mouse is so silly!"
+      }
+    ],
+    "booksWantToRead": [],
+    "journal": [
+      {
+        "date": "December 25, 2024",
+        "title": "Christmas Day",
+        "content": "Today was so fun! We opened presents and I got a new teddy bear. I named her Rosie!"
+      }
+    ],
+    "drawings": [
+      {
+        "title": "Flower Garden",
+        "emoji": "\ud83c\udf3b"
+      },
+      {
+        "title": "My Family",
+        "emoji": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc67"
+      }
+    ]
+  }
+}
