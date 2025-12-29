@@ -22,12 +22,26 @@
     ],
     "booksWantToRead": [
       {
-        "title": "How to Bake Pi:An Edible Exploration of the Mathematics of Mathematics",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "notes": "I wish I could go to Hogwarts!"
+      },
+      {
+        "title": "Percy Jackson & The Lightning Thief",
+        "author": "Rick Riordan",
+        "notes": "Greek mythology is so cool!"
+      },
+      {
+        "title": "How to Bake Pi: An Edible Exploration of the Mathematics of Mathematics",
         "author": "Eugenia Cheng",
         "notes": "more about math and cooking"
       },
       {
-        "title": "Is Maths Real? How Simple Questions Lead Us to Mathematics\u2019 Deepest Truths",
+        "title": "Bake Infinite Pie with X + Y",
+        "author": "Eugenia Cheng, Illustrated by Amber Ren"
+      },
+      {
+        "title": "Is Maths Real? How Simple Questions Lead Us to Mathematics' Deepest Truths",
         "author": "Eugenia Cheng",
         "notes": "Chapter book on exploring- all answers are right in some way"
       }
